@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Grammage des aliments</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="./data/style.css">
+    </head>
+    <body>
+        <h1>Grammages des portions d’aliments pour les enfants scolarisés, adolescents et adultes</h1>
+        <p>Les grammages qui suivent sont adaptés à chaque classe d’âge. Ils sont nécessaires mais aussi suffisants et ne doivent donc pas être systématiquement abondés. Pour les enfants en maternelle et en classe élémentaire, prévoir des grammages spécifiques pour les dîners, les besoins en nutriments n’étant pas ceux des déjeuners (moins d’aliments protidiques, plus de légumes, céréale, produit laitier et fruit).</p>
+        <fieldset class="labelframe">
+            <legend>Sélections pour l'affichage</legend>
+            <div>
+                <label>Choix du repas :</label>
+                <select name="repas" id="repas">
+                    <option value="">-- Sélectionner un repas --</option>
+                </select>
+            </div>
+            <div id="groupeAliment" style="display: none">
+                <label>Choix du groupe alimentaire :</label>
+                <select name="groupe" id="aliments">
+                    <option value="">-- Sélectionner le groupe --</option>
+                </select>
+            </div>
+        </fieldset>
+        <table id="tabledata">
+            <thead>
+                <tr>
+                    <th scope="col"> Aliment/Plat </th>
+                    <th scope="col">Enfants en maternelle</th>
+                    <th scope="col">Enfant en classe élémentaire</th>
+                    <th scope="col">Adolescent/Adulte</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td scope="row">Nom de l'aliment</td>
+                    <td>Quantité en gramme ou en nombre</td>
+                    <td>Quantité en gramme ou en nombre</td>
+                    <td>Quantité en gramme ou en nombre</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
+<script src="./data/main.js"></script>
