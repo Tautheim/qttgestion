@@ -23,7 +23,7 @@ function maj_optn_slct(data) {
 }
 
 function recup_data_maj_liste() {
-    fetch("./data/dataGrammage.json")
+    fetch("./dataGrammage.json")
         .then(response => response.json())
         .then(data => {
             datajson = data;
@@ -75,7 +75,7 @@ function maj_tableau(data) {
 }
 
 function recup_data_maj_tableau() {
-    fetch("./data/dataGrammage.json")
+    fetch("./dataGrammage.json")
         .then(response => response.json())
         .then(data => maj_tableau(data))
         .catch(error => {
