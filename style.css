@@ -1,0 +1,66 @@
+body{
+    background-color: white;
+}
+
+p{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+h1 {
+    color : white;
+    text-transform:uppercase;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgb(27, 35, 86);
+    border-radius: 15px;
+}
+
+label {
+    display: inline-block;
+    width: 50%;
+}
+
+select {
+    width: 40%;
+}
+
+fieldset {
+    border : 2px solid rgb(27, 35, 86);
+    border-radius: 5px;
+    border-width: 5px;
+    box-shadow: none;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+fieldset.labelframe legend {
+    text-transform: uppercase;
+    color:rgb(27, 35, 86);
+    font-weight: bold;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(27 35 86);
+    margin-top: 1%;
+    margin-left: 5%;
+    width: 90%;
+}
+
+th {
+    background-color: rgb(27, 35, 86);
+    text-align: center;
+    border: 1px solid white;
+    color: white;
+    padding: 8px 10px;
+}
+
+td {
+  border: 1px solid rgb(27 35 86);
+  padding: 8px 10px;
+}
